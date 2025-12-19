@@ -1,5 +1,0 @@
-com\rotterdamseguros\RotterdamSegurosApplication.class
-com\rotterdamseguros\model\Lead.class
-com\rotterdamseguros\controller\SimulacaoController.class
-com\rotterdamseguros\repository\LeadRepository.class
-com\rotterdamseguros\service\SimulacaoService.class
