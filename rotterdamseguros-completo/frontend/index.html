@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>RotterdamSeguros</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Simule seu seguro em 1 minuto</h1>
+<form id="form">
+<input id="nome" placeholder="Nome" required>
+<input id="whatsapp" placeholder="WhatsApp" required>
+<input id="cidade" placeholder="Cidade" required>
+<input id="marca" placeholder="Marca" required>
+<input id="modelo" placeholder="Modelo" required>
+<input id="ano" type="number" placeholder="Ano" required>
+<select id="plano">
+<option value="BASICO">Básico</option>
+<option value="INTERMEDIARIO">Intermediário</option>
+<option value="COMPLETO">Completo</option>
+</select>
+<button type="submit">Simular</button>
+</form>
+<div id="resultado"></div>
+<script src="script.js"></script>
+</body>
+</html>
